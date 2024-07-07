@@ -14,6 +14,10 @@
 		1040AC2E2C39BE4800BE3FF2 /* BeeTask3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC2D2C39BE4800BE3FF2 /* BeeTask3Tests.swift */; };
 		1040AC382C39BE4800BE3FF2 /* BeeTask3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC372C39BE4800BE3FF2 /* BeeTask3UITests.swift */; };
 		1040AC3A2C39BE4800BE3FF2 /* BeeTask3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC392C39BE4800BE3FF2 /* BeeTask3UITestsLaunchTests.swift */; };
+		1040AC472C39BE8D00BE3FF2 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC462C39BE8D00BE3FF2 /* Reservation.swift */; };
+		1040AC492C39BED000BE3FF2 /* PetCareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC482C39BED000BE3FF2 /* PetCareViewModel.swift */; };
+		1040AC512C39D84B00BE3FF2 /* AvailableDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC502C39D84B00BE3FF2 /* AvailableDatePicker.swift */; };
+		1040AC532C3A63BD00BE3FF2 /* CustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AC522C3A63BD00BE3FF2 /* CustomCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		1040AC332C39BE4800BE3FF2 /* BeeTask3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTask3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1040AC372C39BE4800BE3FF2 /* BeeTask3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTask3UITests.swift; sourceTree = "<group>"; };
 		1040AC392C39BE4800BE3FF2 /* BeeTask3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTask3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1040AC462C39BE8D00BE3FF2 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		1040AC482C39BED000BE3FF2 /* PetCareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCareViewModel.swift; sourceTree = "<group>"; };
+		1040AC502C39D84B00BE3FF2 /* AvailableDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableDatePicker.swift; sourceTree = "<group>"; };
+		1040AC522C3A63BD00BE3FF2 /* CustomCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				1040AC1B2C39BE3F00BE3FF2 /* BeeTask3App.swift */,
 				1040AC1D2C39BE3F00BE3FF2 /* ContentView.swift */,
+				1040AC462C39BE8D00BE3FF2 /* Reservation.swift */,
+				1040AC482C39BED000BE3FF2 /* PetCareViewModel.swift */,
+				1040AC502C39D84B00BE3FF2 /* AvailableDatePicker.swift */,
+				1040AC522C3A63BD00BE3FF2 /* CustomCalendarView.swift */,
 				1040AC1F2C39BE4700BE3FF2 /* Assets.xcassets */,
 				1040AC212C39BE4700BE3FF2 /* BeeTask3.entitlements */,
 				1040AC222C39BE4700BE3FF2 /* Preview Content */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1040AC512C39D84B00BE3FF2 /* AvailableDatePicker.swift in Sources */,
 				1040AC1E2C39BE3F00BE3FF2 /* ContentView.swift in Sources */,
+				1040AC492C39BED000BE3FF2 /* PetCareViewModel.swift in Sources */,
 				1040AC1C2C39BE3F00BE3FF2 /* BeeTask3App.swift in Sources */,
+				1040AC472C39BE8D00BE3FF2 /* Reservation.swift in Sources */,
+				1040AC532C3A63BD00BE3FF2 /* CustomCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
